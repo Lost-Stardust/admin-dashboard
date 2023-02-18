@@ -18,6 +18,9 @@ li{
     background-color: #5C0099;
     color: white;
     grid-row: 1/-1;
+    display: grid;
+    grid-template-rows: 0.1fr 0.3fr 0.4fr;
+    align-items: center;
 }
 .header{
     display: grid;
@@ -41,7 +44,7 @@ li{
     border-radius: 15px;
     margin-left: 10px;
 }
-svg{
+.search-icon{
     height: 25px;
 }
 .notif{
@@ -57,4 +60,29 @@ svg{
     border-radius: 50px;
     margin-left: 15px;
     margin-right: 10px;
+}
+ul{
+    font-size: 20px;
+    display: grid;
+    gap: 17px;
+}
+li{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    align-items: center;
+}
+li>svg{
+    height: 25px;
+    fill: #FDC500;
+    margin-left: 10px;
+}
+h2>svg{
+    fill: #FDC500;
+    height: 45px; 
+}
+h2{
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    align-items: center;
 }
