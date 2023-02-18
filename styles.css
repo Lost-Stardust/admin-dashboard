@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Amaranth', sans-serif;
 }
 li{
     list-style-type: none;
@@ -20,10 +22,39 @@ li{
 .header{
     display: grid;
     grid-template-rows: 1.5fr 2fr;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2.5fr 1fr;
 }
 .main-content{
     display: grid;
     grid-template-columns: repeat(2, 2fr) 1.6fr;
     grid-template-rows: repeat(3,1fr);
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    height: 25px;
+    width: 500px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 15px;
+    margin-left: 10px;
+}
+svg{
+    height: 25px;
+}
+.notif{
+    height: 20px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pfp1{
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-right: 10px;
 }
