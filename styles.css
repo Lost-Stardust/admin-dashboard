@@ -156,6 +156,7 @@ h2{
     justify-items: center;
     gap: 20px;
     align-self: center;
+    
 }
 .projects>*{
     background-color: white;
@@ -176,12 +177,12 @@ h2{
     color: gray;
     font-size: 13px;
 }
-/* .card2, .card4, .card6{
-    justify-self: start;
-} */
-/* .card1, .card3, .card5{
-    justify-self: end;
-} */
+.card2, .card4, .card6{
+    margin-left: -80px;
+} 
+.card1, .card3, .card5{
+    margin-right: -80px;
+} 
 .projects>div>:last-child{
     display: flex;
     height: 20px;
