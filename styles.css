@@ -19,7 +19,7 @@ li{
     color: white;
     grid-row: 1/-1;
     display: grid;
-    grid-template-rows: 0.1fr 0.3fr 0.4fr;
+    grid-template-rows: 79.5px 238.80px 318.41px;
     align-items: center;
     min-width: 200px;
 }
