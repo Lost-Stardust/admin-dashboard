@@ -138,12 +138,12 @@ h2{
 }
 .projects-heading{
     margin-left: 18px;
-    align-self: flex-end;
+    align-self: center;
     font-size: 18px;
 }
 .announcements-heading{
     grid-column: 3;
-    align-self: flex-end;
+    align-self: center;
     font-size: 18px;
 }
 .projects{
@@ -225,8 +225,9 @@ h2{
 }
 .news>p{
     grid-row: 3;
-    align-self: flex-end;
+    align-self: center;
     margin-bottom: 4px;
+    font-size: 18px;
 }
 .box1>:last-child{
     font-size: 10px;
