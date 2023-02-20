@@ -208,19 +208,49 @@ h2{
 .announcements{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
-    height: 230px;
+    height: 260px;
     width:210px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .trending{
     grid-row: 4/-1;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
-    height: 220px;
+    height: 230px;
     width: 210px;
     align-self: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .news>p{
     grid-row: 3;
     align-self: flex-end;
     margin-bottom: 4px;
+}
+.box1>:last-child{
+    font-size: 10px;
+    color: gray;
+}
+.box2>:last-child{
+    font-size: 10px;
+    color: gray;
+}
+.box3>:last-child{
+    font-size: 10px;
+    color: gray;
+}
+.box1>:first-child{
+    font-size: 13px;
+}
+.box2>:first-child{
+    font-size: 13px;
+}
+.box3>:first-child{
+    font-size: 13px;
+}
+.announcements>*{
+    margin: 10px;
+    margin-left: 20px;
 }
