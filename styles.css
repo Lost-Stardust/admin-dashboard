@@ -27,7 +27,9 @@ li{
     display: grid;
     grid-template-rows: 1fr 2fr;
     grid-template-columns: 2.5fr 1fr;
-    margin-top: 10px;
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-top: 7px;
 }
 .main-content{
     display: grid;
@@ -42,10 +44,11 @@ li{
 }
 .search-bar{
     height: 25px;
-    width: 500px;
+    width: 550px;
     background-color: rgb(230, 230, 230);
     border-radius: 15px;
     margin-left: 10px;
+    flex-grow: 0.5;
 }
 .search-icon{
     height: 25px;
@@ -96,9 +99,8 @@ h2{
 }
 .greeting{
     display: grid;
-    grid-template-columns: .3fr 1fr ;
+    grid-template-columns: .2fr 1fr ;
     align-items: center;
-    margin-left: 30px;
 }
 .pfp2{
     display: grid;
