@@ -196,7 +196,6 @@ h2{
 .news{
     grid-row: 2/-1;
     display: grid;
-    
     grid-template-rows: .5fr .1fr .3fr .1fr .3fr;
     justify-self: start;
 }
@@ -221,8 +220,8 @@ h2{
     height: 230px;
     width: 210px;
     align-self: flex-end;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .news>p{
     grid-row: 3;
@@ -253,4 +252,23 @@ h2{
 .announcements>*{
     margin: 10px;
     margin-left: 20px;
+}
+.img1, .img2, .img3, .img4{
+    height: 40px;
+    border-radius: 50%;
+}
+.trending>*{
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: .1fr 1fr;
+    align-items: center;
+    gap: 10px;
+}
+.trending-profile>:last-child{
+    font-size: 12px;
+    color: gray;
+    grid-column: 2;
+}
+.trending-profile>:first-child{
+    font-size: 14px;
 }
